@@ -1,0 +1,31 @@
+name: dbt_search_observatory
+version: 1.0.0
+config-version: 2
+
+profile: search_observatory
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+  - "logs"
+
+models:
+  dbt_search_observatory:
+    staging:
+      +schema: staging
+      +materialized: view
+    marts:
+      +schema: observatory
+      +materialized: table
+
+seeds:
+  dbt_search_observatory:
+    +schema: raw
+    +quote_columns: false
+

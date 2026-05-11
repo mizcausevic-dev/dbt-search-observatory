@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: stg_search_console_daily
+    columns:
+      - name: event_date
+        tests: [not_null]
+      - name: url
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_url_inventory')
+                field: url
+      - name: page_group
+        tests: [not_null]
+
+  - name: stg_crawl_observations
+    columns:
+      - name: observed_at
+        tests: [not_null]
+      - name: url
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_url_inventory')
+                field: url
+      - name: indexability
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['indexable', 'noindex']
+
+  - name: stg_url_inventory
+    columns:
+      - name: url
+        tests: [not_null, unique]
+      - name: priority_tier
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['p1', 'p2', 'p3']

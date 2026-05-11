@@ -1,0 +1,8 @@
+url,page_group,template,owner_team,expected_refresh_days,priority_tier,is_money_page
+https://kineticgain.com/pricing,pricing,landing_page,revops,7,p1,true
+https://kineticgain.com/seo-governance,seo_governance,solution_page,search,14,p1,true
+https://kineticgain.com/customer-intelligence-graph,customer_intelligence,product_page,growth_systems,10,p1,true
+https://kineticgain.com/docs/api-governance,docs,docs_page,platform,30,p2,false
+https://kineticgain.com/blog/identity-workbench-launch,blog,blog_post,content,21,p2,false
+https://kineticgain.com/templates/feature-flags,templates,template_gallery,product_marketing,14,p2,false
+

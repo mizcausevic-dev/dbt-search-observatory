@@ -1,0 +1,14 @@
+observed_at,url,status_code,indexability,canonical_state,response_ms,template,agent_group
+2026-05-09 06:00:00,https://kineticgain.com/pricing,200,indexable,self,318,landing_page,googlebot_desktop
+2026-05-09 06:05:00,https://kineticgain.com/seo-governance,200,indexable,self,246,solution_page,googlebot_desktop
+2026-05-09 06:10:00,https://kineticgain.com/customer-intelligence-graph,200,indexable,self,624,product_page,googlebot_desktop
+2026-05-09 06:15:00,https://kineticgain.com/docs/api-governance,200,indexable,self,174,docs_page,googlebot_mobile
+2026-05-09 06:20:00,https://kineticgain.com/blog/identity-workbench-launch,200,indexable,self,412,blog_post,googlebot_desktop
+2026-05-09 06:25:00,https://kineticgain.com/templates/feature-flags,200,noindex,self,498,template_gallery,googlebot_desktop
+2026-05-10 06:00:00,https://kineticgain.com/pricing,200,indexable,self,336,landing_page,googlebot_desktop
+2026-05-10 06:05:00,https://kineticgain.com/seo-governance,200,indexable,self,254,solution_page,googlebot_desktop
+2026-05-10 06:10:00,https://kineticgain.com/customer-intelligence-graph,200,indexable,self,688,product_page,googlebot_desktop
+2026-05-10 06:15:00,https://kineticgain.com/docs/api-governance,200,indexable,self,190,docs_page,googlebot_mobile
+2026-05-10 06:20:00,https://kineticgain.com/blog/identity-workbench-launch,200,indexable,self,447,blog_post,googlebot_desktop
+2026-05-10 06:25:00,https://kineticgain.com/templates/feature-flags,200,noindex,self,526,template_gallery,googlebot_desktop
+

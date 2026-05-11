@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: mart_url_observability
+    columns:
+      - name: url
+        tests: [not_null, unique]
+      - name: observability_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['stable', 'watch', 'critical']
+
+  - name: mart_page_group_performance
+    columns:
+      - name: page_group
+        tests: [not_null, unique]
+
+  - name: mart_anomaly_flags
+    columns:
+      - name: anomaly_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['money_page_indexability_loss', 'crawl_latency_spike', 'search_demand_drop']
+
+  - name: mart_site_health
+    columns:
+      - name: tracked_urls
+        tests: [not_null]

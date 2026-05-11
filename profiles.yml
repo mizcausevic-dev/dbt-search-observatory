@@ -1,0 +1,9 @@
+search_observatory:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: warehouse/search_observatory.duckdb
+      threads: 4
+      schema: observatory
+

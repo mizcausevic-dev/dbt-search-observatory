@@ -1,0 +1,32 @@
+event_date,url,query,page_group,device,country,impressions,clicks,avg_position
+2026-05-05,https://kineticgain.com/pricing,pricing experiment software,pricing,desktop,US,830,54,5.2
+2026-05-06,https://kineticgain.com/pricing,pricing experiment software,pricing,desktop,US,805,50,5.5
+2026-05-07,https://kineticgain.com/pricing,pricing experiment software,pricing,desktop,US,790,47,5.9
+2026-05-08,https://kineticgain.com/pricing,pricing experiment software,pricing,desktop,US,768,42,6.4
+2026-05-09,https://kineticgain.com/pricing,pricing experiment software,pricing,desktop,US,752,40,6.8
+2026-05-05,https://kineticgain.com/seo-governance,seo governance platform,seo_governance,desktop,US,1260,88,4.1
+2026-05-06,https://kineticgain.com/seo-governance,seo governance platform,seo_governance,desktop,US,1298,94,3.9
+2026-05-07,https://kineticgain.com/seo-governance,seo governance platform,seo_governance,desktop,US,1324,98,3.7
+2026-05-08,https://kineticgain.com/seo-governance,seo governance platform,seo_governance,desktop,US,1302,95,3.8
+2026-05-09,https://kineticgain.com/seo-governance,seo governance platform,seo_governance,desktop,US,1276,91,4.0
+2026-05-05,https://kineticgain.com/customer-intelligence-graph,customer intelligence graph,customer_intelligence,desktop,US,680,39,6.0
+2026-05-06,https://kineticgain.com/customer-intelligence-graph,customer intelligence graph,customer_intelligence,desktop,US,704,42,5.8
+2026-05-07,https://kineticgain.com/customer-intelligence-graph,customer intelligence graph,customer_intelligence,desktop,US,691,41,6.1
+2026-05-08,https://kineticgain.com/customer-intelligence-graph,customer intelligence graph,customer_intelligence,desktop,US,642,34,7.0
+2026-05-09,https://kineticgain.com/customer-intelligence-graph,customer intelligence graph,customer_intelligence,desktop,US,598,29,7.8
+2026-05-05,https://kineticgain.com/docs/api-governance,ai governance api docs,docs,mobile,US,410,9,11.4
+2026-05-06,https://kineticgain.com/docs/api-governance,ai governance api docs,docs,mobile,US,428,10,11.0
+2026-05-07,https://kineticgain.com/docs/api-governance,ai governance api docs,docs,mobile,US,439,12,10.8
+2026-05-08,https://kineticgain.com/docs/api-governance,ai governance api docs,docs,mobile,US,452,13,10.6
+2026-05-09,https://kineticgain.com/docs/api-governance,ai governance api docs,docs,mobile,US,468,14,10.2
+2026-05-05,https://kineticgain.com/blog/identity-workbench-launch,identity lifecycle workbench,blog,desktop,US,520,18,8.7
+2026-05-06,https://kineticgain.com/blog/identity-workbench-launch,identity lifecycle workbench,blog,desktop,US,516,18,8.8
+2026-05-07,https://kineticgain.com/blog/identity-workbench-launch,identity lifecycle workbench,blog,desktop,US,509,17,9.0
+2026-05-08,https://kineticgain.com/blog/identity-workbench-launch,identity lifecycle workbench,blog,desktop,US,488,16,9.4
+2026-05-09,https://kineticgain.com/blog/identity-workbench-launch,identity lifecycle workbench,blog,desktop,US,462,14,9.9
+2026-05-05,https://kineticgain.com/templates/feature-flags,feature flag rollout studio,templates,desktop,US,372,8,13.2
+2026-05-06,https://kineticgain.com/templates/feature-flags,feature flag rollout studio,templates,desktop,US,381,9,13.0
+2026-05-07,https://kineticgain.com/templates/feature-flags,feature flag rollout studio,templates,desktop,US,366,7,13.5
+2026-05-08,https://kineticgain.com/templates/feature-flags,feature flag rollout studio,templates,desktop,US,349,6,14.1
+2026-05-09,https://kineticgain.com/templates/feature-flags,feature flag rollout studio,templates,desktop,US,335,5,14.6
+
