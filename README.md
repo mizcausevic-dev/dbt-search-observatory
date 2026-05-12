@@ -106,3 +106,7 @@ Or run dbt directly:
 - Website: [https://kineticgain.com/](https://kineticgain.com/)
 - Skills Page: [https://mizcausevic.com/skills/](https://mizcausevic.com/skills/)
 - GitHub: [https://github.com/mizcausevic-dev](https://github.com/mizcausevic-dev)
+
+---
+
+**Connect:** [LinkedIn](https://www.linkedin.com/in/mirzacausevic/) · [Kinetic Gain](https://kineticgain.com) · [Medium](https://medium.com/@mizcausevic/) · [Skills](https://mizcausevic.com/skills/)
