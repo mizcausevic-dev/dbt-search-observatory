@@ -7,7 +7,7 @@ This log is intentionally written as an engineering record rather than a launch 
 ## [1.0.0] - 2026-05-12
 
 ### Released
-- Published \$name\ as a public, portfolio-grade RAG reliability system.
+- Published **dbt-search-observatory** as a public, portfolio-grade RAG reliability system.
 - Packaged the current implementation, documentation, validation workflow, and proof surfaces into a repo that could be reviewed by engineering, product, and operating stakeholders.
 - Tightened the repo story around the real-world operating problem: rising RAG hallucination rates, weak citation quality, and silent retrieval drift.
 
@@ -18,7 +18,7 @@ This log is intentionally written as an engineering record rather than a launch 
 ## [0.1.0] - 2026-01-17
 
 ### Shipped
-- Cut the first coherent internal version of the product shape behind \$name\.
+- Cut the first coherent internal version of the product shape behind **dbt-search-observatory**.
 - Standardized the core objects, decision surfaces, and operator outputs around the repo's main working problem.
 - Established the first reviewable version of the architecture described as: dbt + DuckDB warehouse for search console, crawl, index coverage, freshness drift, and URL-level observability diagnostics.
 
@@ -60,7 +60,7 @@ This log is intentionally written as an engineering record rather than a launch 
 
 ### Insight
 - The missing product was not another point solution. It was a clearer operating layer that made the work legible to AI platform and knowledge-system teams.
-- That insight became the basis for \$name\.
+- That insight became the basis for **dbt-search-observatory**.
 
 ## [Background Signals] - 2022-08-09
 
