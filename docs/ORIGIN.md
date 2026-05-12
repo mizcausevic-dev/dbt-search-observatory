@@ -6,7 +6,7 @@ In this case the pressure showed up around rising RAG hallucination rates, weak 
 
 That was the opening for **dbt-search-observatory**. The repo was designed around a simple idea: operators need more than visibility. They need evidence, priorities, and next actions that make sense under pressure. That is why the project is framed as RAG reliability rather than as a generic app demo. The point is not just to show that data can be rendered or APIs can be wired together. The point is to show what a practical control surface looks like when the audience is AI platform and knowledge-system teams.
 
-Existing tools missed the mark for understandable reasons. The available tooling landscape â€” observability stacks, vector dashboards, and model evaluation tools â€” helped with record-keeping, scanning, reporting, or workflow coverage. What it still missed was a reviewable operating layer for retrieval quality, citation integrity, and corpus drift. In other words, the gap was not capability in isolation. The gap was operational coherence. The team responsible for day-to-day decisions still had to reconstruct the story manually.
+Existing tools missed the mark for understandable reasons. The available tooling landscape - observability stacks, vector dashboards, and model evaluation tools - helped with record-keeping, scanning, reporting, or workflow coverage. What it still missed was a reviewable operating layer for retrieval quality, citation integrity, and corpus drift. In other words, the gap was not capability in isolation. The gap was operational coherence. The team responsible for day-to-day decisions still had to reconstruct the story manually.
 
 That shaped the design philosophy from the start:
 
