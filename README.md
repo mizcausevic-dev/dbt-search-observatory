@@ -66,7 +66,7 @@ flowchart LR
 Create the repo-local environment and install dependencies:
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\dbt-search-observatory"
+cd dbt-search-observatory
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
