@@ -7,8 +7,14 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PYTHON = ROOT / ".venv" / "Scripts" / "python.exe"
-DBT = ROOT / ".venv" / "Scripts" / "dbt.exe"
+# Platform-aware venv paths: Windows uses Scripts/, POSIX uses bin/.
+# Fall back to the current interpreter / PATH-resolved dbt when no venv
+# exists (e.g. CI where deps are installed system-wide via pip).
+_VENV_BIN = ROOT / ".venv" / ("Scripts" if os.name == "nt" else "bin")
+_PY_NAME = "python.exe" if os.name == "nt" else "python"
+_DBT_NAME = "dbt.exe" if os.name == "nt" else "dbt"
+PYTHON = (_VENV_BIN / _PY_NAME) if (_VENV_BIN / _PY_NAME).exists() else Path(sys.executable)
+DBT = (_VENV_BIN / _DBT_NAME) if (_VENV_BIN / _DBT_NAME).exists() else Path("dbt")
 
 
 def run(command: list[str]) -> None:

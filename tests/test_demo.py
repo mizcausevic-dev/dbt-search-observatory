@@ -1,12 +1,18 @@
 from __future__ import annotations
 
+import os
 import subprocess
+import sys
 import unittest
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PYTHON = ROOT / ".venv" / "Scripts" / "python.exe"
+# Platform-aware venv path; falls back to the current interpreter when
+# no venv exists (e.g. CI with system-wide pip install).
+_VENV_BIN = ROOT / ".venv" / ("Scripts" if os.name == "nt" else "bin")
+_PY_NAME = "python.exe" if os.name == "nt" else "python"
+PYTHON = (_VENV_BIN / _PY_NAME) if (_VENV_BIN / _PY_NAME).exists() else Path(sys.executable)
 
 
 class DemoTest(unittest.TestCase):
