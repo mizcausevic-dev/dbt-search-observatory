@@ -1,4 +1,4 @@
 dbt-duckdb==1.10.1
 duckdb==1.5.2
-pillow==12.2.0
+pillow==12.3.0
 
